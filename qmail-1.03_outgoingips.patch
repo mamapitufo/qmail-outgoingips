@@ -9,6 +9,8 @@ The HELO string will be set to the domain part if there is a match.
 Based on outgoingip.patch (http://qmail.org./outgoingip.patch). Let me know if you
 find it useful.
 
+This software is in the public domain, see http://unlicense.org/.
+
 diff -Nru qmail-1.03.orig/qmail-control.9 qmail-1.03/qmail-control.9
 --- qmail-1.03.orig/qmail-control.9	1998-06-15 04:53:16.000000000 -0600
 +++ qmail-1.03/qmail-control.9	2004-09-15 13:44:28.000000000 -0600
